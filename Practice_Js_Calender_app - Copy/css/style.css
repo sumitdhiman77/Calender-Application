@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  padding: 1.4rem 0;
+  position: relative;
+}
+label {
+  font-size: 1.3rem;
+}
+#yearsInput {
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+  color: var(--bs-blue);
+}
+#submit {
+  display: block;
+  padding: 0 0.8rem;
+  color: #8a2be2;
+  position: absolute;
+  left: 22.8rem;
+}
+#clear {
+  display: block;
+  padding: 0 0.8rem;
+  color: red;
+  position: absolute;
+  right: 14rem;
+}
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: #ff0;
+  }
+}
+@keyframes example1 {
+  from {
+    font-size: 16vw;
+    height: 100vh;
+  }
+  to {
+    font-size: 0;
+  }
+}
+.blur {
+  text-shadow: 2px 2px 4px #adff2f;
+}
+.head {
+  color: #09dd25;
+  margin-top: 5rem;
+  text-align: center;
+  transition: ease-in-out;
+  animation-name: example;
+  animation-duration: 10s;
+  font-size: 2rem;
+}
+.message {
+  animation-name: example1;
+  transition: ease-in;
+  animation-duration: 10s;
+  color: #07e2ff;
+  font-size: 2rem;
+}
+h1 > h2 {
+  font-weight: 900;
+  color: #7300ff;
+  background: aqua;
+  margin: 1.5rem 0;
+  letter-spacing: 1rem;
+  word-spacing: 2.5rem;
+  line-height: 3rem;
+}
+.box {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.box > h3 {
+  color: #ffd700;
+}
+table {
+  width: 85%;
+  border: none;
+  display: inline-table;
+  margin-top: 0.45rem;
+  text-align: center;
+  height: 20rem;
+}
+th {
+  color: #ff4500;
+  background-color: #5b253c;
+  border: 1px solid #fff;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+td {
+  background-color: #e8eff0;
+  border: 1px solid #fff;
+}

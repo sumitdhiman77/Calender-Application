@@ -1,0 +1,178 @@
+@media (max-width: 2560px) {
+  :root {
+    font-size: 26px;
+  }
+  #clear {
+    right: 13.5rem;
+  }
+  #submit {
+    left: 22.5rem;
+  }
+}
+@media (max-width: 1900px) {
+  :root {
+    font-size: 24px;
+  }
+  #clear {
+    right: 15.67rem;
+  }
+  #submit {
+    left: 24.5rem;
+  }
+}
+@media (max-width: 1440px) {
+  :root {
+    font-size: 22px;
+  }
+  #clear {
+    right: 18rem;
+  }
+  #submit {
+    left: 26.92rem;
+  }
+}
+@media (max-width: 1366px) {
+  :root {
+    font-size: 22px;
+  }
+  #clear {
+    right: 14rem;
+  }
+  #submit {
+    left: 22.92rem;
+  }
+}
+@media (max-width: 1280px) {
+  :root {
+    font-size: 20px;
+  }
+  #clear {
+    right: 16.5rem;
+  }
+  #submit {
+    left: 25.4rem;
+  }
+}
+@media (max-width: 1025px) {
+  :root {
+    font-size: 19px;
+  }
+  .box {
+    width: 50%;
+    display: inline-block;
+  }
+  th {
+    font-size: 1rem;
+  }
+  #clear {
+    right: 13.5rem;
+  }
+  #submit {
+    left: 22.4rem;
+  }
+}
+@media (max-width: 991px) {
+  #clear {
+    right: 7.2rem;
+  }
+  #submit {
+    left: 16.1rem;
+  }
+}
+@media (max-width: 801px) {
+  #clear {
+    right: 7.2rem;
+  }
+  #submit {
+    left: 16.05rem;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    font-size: 18px;
+  }
+  .box {
+    width: 50%;
+    display: inline-block;
+  }
+  #clear {
+    right: 8.05rem;
+  }
+  #submit {
+    left: 16.9rem;
+  }
+  #yearsInput {
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 736px) {
+  :root {
+    font-size: 16px;
+  }
+  .box {
+    display: block;
+    width: 100%;
+  }
+  .message {
+    font-size: 0.8rem;
+  }
+  #clear {
+    right: 5rem;
+  }
+  #submit {
+    left: 13.8rem;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
+  .box {
+    display: block;
+    width: 100%;
+  }
+  .message {
+    font-size: 0.8rem;
+  }
+  #clear {
+    right: 5rem;
+  }
+  #submit {
+    left: 14rem;
+  }
+}
+@media (max-width: 480px) {
+  #clear {
+    right: 3rem;
+  }
+  #submit {
+    left: 12rem;
+  }
+}
+@media (max-width: 414px) {
+  #clear {
+    right: 1rem;
+  }
+  #submit {
+    left: 9.9rem;
+  }
+}
+@media (max-width: 375px) {
+  #clear {
+    right: 4.1rem;
+  }
+  #submit {
+    left: 4.25rem;
+  }
+  #yearsInput {
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 320px) {
+  #clear {
+    right: 11.4rem;
+  }
+  #submit {
+    left: 10.6rem;
+  }
+}
