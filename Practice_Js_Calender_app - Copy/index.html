@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,14 +19,30 @@
       crossorigin="anonymous"
     />
     <script src="calender.js" defer></script>
-    <meta name="google-site-verification" content="BSUTHM08jdZaX1ZifNSFhrWAPRtNwEPRBfx28v9WTPo" />
   </head>
   <body>
     <div class="container">
       <p class="message">Welcome to the Calender World</p>
       <div class="main">
-        <form action="">
-          <label> Enter a Year :</label>
+        <form
+          onsubmit="
+            calender();
+            return false;
+          "
+        >
+          <label>Enter a Year :</label><br />
+
+          <input
+            type="number"
+            id="yearsInput"
+            placeholder="Enter year (1800+)"
+            min="1800"
+          />
+
+          <button type="submit" id="submit">Submit</button>
+          <button type="button" id="clear" onclick="location.reload()">
+            Clear
+          </button>
         </form>
       </div>
       <script
